@@ -1,0 +1,19 @@
+<template>
+  <div>
+    
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'ValidationErrors',
+  props: {
+    validationErrors: {
+       type: Object,
+       require: true,
+       default: null
+    }
+  }
+}
+</script>
+
